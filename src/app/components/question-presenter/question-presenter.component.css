@@ -1,0 +1,23 @@
+h2{
+  margin: 10px;
+  text-align: center;
+  border-bottom: 1px solid #a6a6ff;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  list-style: none;
+  margin: 8px;
+  padding: 4px;
+  border: 1px solid #0b5c6f;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+li:hover{
+  background-color: rgba(46, 101, 114, 0.16);
+}

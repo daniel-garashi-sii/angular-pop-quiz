@@ -1,0 +1,10 @@
+<div class="root">
+  <div class="answer-box" *ngFor="let question of questions"
+       [class.correct] = "question.userAnswer === question.correctAnswer"
+       [class.wrong] = "question.userAnswer !== question.correctAnswer"
+  >
+    <div class="caption">{{question.caption}}</div>
+    <div>Your answer: {{question.answers[question.userAnswer]}}</div>
+    <div *ngIf="question.userAnswer !== question.correctAnswer">Correct answer: {{question.answers[question.correctAnswer]}}</div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.answer-box {
+  height: auto;
+  margin: 8px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.caption {
+  font-size: 21px;
+  color: rgb(3, 3, 3);
+  font-weight: bold;
+  font-family: "Segoe UI Light";
+}
+
+.correct {
+  background-color: #a8faa8;
+}
+
+.wrong {
+  background-color: #eee873;
+}
+
+.correct-answer {
+
+}
+
+.wrong-answer {
+
+}
+
+
